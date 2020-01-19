@@ -32,8 +32,12 @@ class TestDemo:
         el2 = self.driver.find_element_by_id("com.xueqiu.android:id/search_input_text")
         el2.send_keys("alibaba")
 
+    def test_jiafa(self):
+        a=4
+        b=6
+        c=a+b
+        print(c)
+
     def teardown(self):
         self.driver.quit()
 
-
-1111
